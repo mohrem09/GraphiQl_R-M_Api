@@ -1,0 +1,8 @@
+query Character($id: ID!) {
+  character(id: $id) {
+    id
+    name
+    image
+    # Ajoutez d'autres champs de détails si nécessaire
+  }
+}
